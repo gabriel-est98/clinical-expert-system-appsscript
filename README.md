@@ -37,6 +37,12 @@ Se desarrolló una aplicación nativa utilizando **Google Apps Script (JavaScrip
 
 ---
 
-## 📂 Estructura del Repositorio
-* `src/`: Contiene el código fuente original en JavaScript (`Codigo.js`) desarrollado para la lógica del sistema, llamadas API de IA y control de seguridad perimetral.
-* `sheets-templates/`: Capturas de pantalla e interfaces visuales del formulario de triaje y el panel de diagnóstico presuntivo médico.
+## 📂 Estructura del Repositorio y Vistas de la Interfaz
+Debido a la densidad de la información clínica y las normativas de la herramienta, las interfaces y flujos se han documentado en formato PDF de alta resolución para garantizar su legibilidad:
+
+* 📁 `src/`: Contiene el código fuente original en JavaScript (`Codigo.js`) desarrollado para la lógica del sistema, llamadas API de IA y control de seguridad perimetral.
+* 📁 `sheets-templates/`: Documentación visual y diseño completo del sistema experto. Haz clic en los siguientes enlaces para visualizar el flujo operativo:
+  * 📄 [1. Ver Formulario de Triaje de Enfermería (Input)](sheets-templates/01_formulario_triaje.pdf)
+  * 📄 [2. Ver Dashboard de Diagnóstico Médico IA (Output)](sheets-templates/02_dashboard_diagnostico.pdf)
+  * 📄 [3. Ver Motor de Reglas Clínicas (Logic)](sheets-templates/03_motor_de_reglas.pdf)
+  * 📄 [4. Ver Instrucciones de Uso del Sistema (Docs)](sheets-templates/04_instrucciones_uso.pdf)
